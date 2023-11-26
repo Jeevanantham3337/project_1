@@ -1,0 +1,18 @@
+/* ProductCatalog.css */
+
+.product-catalog {
+    padding: 20px;
+  }
+  
+  .product-catalog h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+    color: white;
+  }
+  
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  

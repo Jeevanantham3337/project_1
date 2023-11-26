@@ -1,0 +1,69 @@
+/* Login.css */
+
+.login-page {
+    text-align: center;
+    margin: 50px auto;
+    width: 300px;
+    
+  }
+  
+  .login-page h2 {
+    color: white;
+    margin-bottom: 30px;
+
+  }
+  
+  .form-group {
+    margin-bottom: 400px;
+    text-align: left;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 10px;
+    color: white;
+  }
+
+  .login-page a {
+    color: #ff9900; /* Change the color to your desired color */
+    text-decoration: none; /* Remove default underline */
+  }
+  
+  .login-page a:hover {
+    color: #ffcc00; /* Change color on hover */
+  }
+  
+  .form-group input {
+    border-radius: 5px;
+    width: 100%;
+    padding: 8px;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+  }
+  
+  form>button[type='submit'] {
+    width: 200px;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: rgb(62, 117, 212);
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    display: block;
+    margin: 30px auto 0; /* Adds space above the button and centers it horizontally */
+    text-align: center; /* Aligns the text in the center */
+  }
+  
+  /* Optional hover effect */
+  form>button[type='submit']:hover {
+    background-color: #1a576d;
+  }
+  
+  
+  .login-page p
+  {
+    color: white;
+  }
+  

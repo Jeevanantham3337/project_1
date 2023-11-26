@@ -1,0 +1,58 @@
+/* FormComponent.css */
+
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  .main h2{
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+  }
+  .form-container label {
+    
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: rgb(20, 22, 21);
+  }
+  
+  input[type='text'],
+  textarea,
+  input[type='file'] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  button[type='submit'] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  button[type='submit']:hover {
+    background-color: #0056b3;
+  }
+  

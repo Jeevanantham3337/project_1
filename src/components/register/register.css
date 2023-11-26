@@ -1,0 +1,58 @@
+/* Register.css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+.register-page {
+    text-align: center;
+    margin: 50px auto;
+    width: 300px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .register-page h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+  }
+  .register-page p{
+    color: white;
+  }
+  .register-page a {
+    color: #ff9900; /* Change the color to your desired color */
+    text-decoration: none; /* Remove default underline */
+  }
+  
+  .register-page a:hover {
+    color: #ffcc00; /* Change color on hover */
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    font-size: 1rem;
+  }
+  
+  button[type='submit'] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button[type='submit']:hover {
+    background-color: #0056b3;
+  }
+  
